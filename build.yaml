@@ -8,7 +8,6 @@
 include:
   - board: nice_nano
     shield: dactyl-stabilized_left
-    snippet: zmk-usb-logging
 
   - board: nice_nano
     shield: dactyl-stabilized_right
