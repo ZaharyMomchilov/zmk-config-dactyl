@@ -1,0 +1,9 @@
+/ {
+    chosen {
+        zmk,split = &split;
+    };
+
+    split: split {
+        compatible = "zmk,split-bluetooth";
+    };
+};
