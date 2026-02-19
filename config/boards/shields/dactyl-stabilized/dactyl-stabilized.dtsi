@@ -43,9 +43,4 @@
             , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
-
-
-    split: split {
-        compatible = "zmk,split-bluetooth";
-    };
 };
