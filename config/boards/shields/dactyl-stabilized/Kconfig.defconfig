@@ -6,21 +6,12 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
-config ZMK_SPLIT_BLE_ROLE_PERIPHERAL
-    default n
-
 endif
 
 if SHIELD_DACTYL_STABILIZED_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "dstab-right"
-
-config ZMK_SPLIT_BLE_ROLE_PERIPHERAL
-    default y
-
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-    default n
 
 endif
 
